@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>The Tao of Ron Swanson</title>
+</head>
+<body>
+    <div id="header_bkgd">
+        <h1>The Tao of Ron Swanson</h1>
+    </div>
+    <div id="body">
+        <div id="left_body">
+            <img src="{{ url_for('static', filename='img/Socrates.jpeg')}}"/>
+        </div>
+        <div id="quote_block">
+            <p>
+                {{ quote }} --Ron Swanson
+                <br>
+                <form>
+                    <input id="index" type="submit" value="Another Ron Quote!"> 
+                </form>
+               
+            </p>
+        </div>
+    </div>
+</body>
+</html>

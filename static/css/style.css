@@ -1,0 +1,30 @@
+#header_bkgd {
+    background: #002F99;
+    background: -moz-linear-gradient(-45deg, #002F99 0%, #4F5BA4 51%, #B9BFC5 100%);
+    background: -webkit-linear-gradient(-45deg, #002F99 0%, #4F5BA4 51%, #B9BFC5 100%);
+    background: linear-gradient(135deg, #002F99 0%, #4F5BA4 51%, #B9BFC5 100%);
+    }
+#body{
+        border: 5px solid #1C6EA4;
+        overflow: hidden;
+    }
+
+#left_body{
+    padding: 10px;
+    float: left;
+}
+
+#quote_block {
+        padding-top: 50px;
+        float: center; 
+        text-align: center;
+    }
+
+h1 {
+    border: 2px #eee solid;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 10px;
+}
+
