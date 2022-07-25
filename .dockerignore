@@ -1,0 +1,3 @@
+# Files to ignore by docker
+__pycache__
+.python-version
