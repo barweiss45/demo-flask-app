@@ -1,4 +1,3 @@
-from crypt import methods
 from flask import Flask, render_template
 from swanson_quote_api import swanson_quote
 
