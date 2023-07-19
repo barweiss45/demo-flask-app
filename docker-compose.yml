@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  demo-flask-app:
+    build: .
+    ports:
+    - "5000:5000"
+
+networks:
+  all-plugins-nginx-proxy_app_network:
+    name: all-plugins-nginx-proxy_app_network
+    external: true
