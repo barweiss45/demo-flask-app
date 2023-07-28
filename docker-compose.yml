@@ -7,3 +7,9 @@ services:
       context: .
     ports:
     - "5000:5000"
+    networks:
+      - all-plugins-nginx-plugins_app_network
+
+networks:
+  all-plugins-nginx-proxy_app_network:
+    external: true
